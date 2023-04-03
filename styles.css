@@ -590,7 +590,36 @@ border: 5px solid #b48ccf;
 padding: 1.25rem;
 position: relative;
 }
-
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+    z-index: 99;
+    position: absolute;
+    font-weight: bold;
+    padding: 2px;
+    border: 4px dotted #b48ccf;
+    border-radius: 20%;
+    color: #A267AC;
+    background-color: white;
+}
+.html-text {
+    right: 490px;
+    bottom: 170px;
+}
+.css-text {
+    bottom: 170px;
+    right: 320px;
+}
+.Js-text {
+    bottom: 170px;
+    right: 120px;
+}
+.Bootstrap-text {
+    top: 170px;
+    right: 390px;
+}
+.jquery-text {
+    top: 170px;
+    right: 220px;
+}
 .icon::hover {
 color: #40514E;
 }
@@ -843,11 +872,40 @@ width: 80px;
 margin-top: 300px;
 margin-left: -50px;
 }
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+font-size: 1.5rem;
+padding: 4px;
+border: 8px dotted #b48ccf;
+}
+.html-text {
+right: 510px;
+bottom: 200px;
+}
+.css-text {
+bottom: 200px;
+right: 320px;
+}
+.Js-text {
+bottom: 200px;
+right: 90px;
+}
+.Bootstrap-text {
+top: 200px;
+right: 385px;
+}
+.jquery-text {
+top: 200px;
+right: 210px;
+}
+.icon {
+    width: 120px;
+    height: 120px;
+}
 .first-set {
-    bottom: 315px;
+    bottom: 335px;
 }
 .second-set {
-    bottom: 300px;
+    bottom: 310px;
 }
 .skills-p {
     margin-left: 30px;
@@ -945,6 +1003,31 @@ width: 150px;
 margin-right: 1800px;
 margin-top: 1500px;
 font-size: 9rem;
+}
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+font-size: 45px;
+padding: 4px;
+border: 10px dotted #b48ccf;
+}
+.html-text {
+right: 940px;
+bottom: 380px;
+}
+.css-text {
+bottom: 380px;
+right: 590px;
+}
+.Js-text {
+bottom: 380px;
+right: 150px;
+}
+.Bootstrap-text {
+top: 380px;
+right: 700px;
+}
+.jquery-text {
+top: 380px;
+right: 360px;
 }
 .icon-card {
 width: 300px ;
@@ -1098,6 +1181,31 @@ margin-left: 130px;
         width: 80px;
         height: 80px;
     }
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+    font-size: 15px;
+    padding: 4px;
+    border: 5px dotted #b48ccf;
+    }
+    .html-text {
+    right: 635px;
+    bottom: 150px;
+    }
+    .css-text {
+    bottom: 150px;
+    right: 490px;
+    }
+    .Js-text {
+    bottom: 150px;
+    right: 310px;
+    }
+    .Bootstrap-text {
+    top: 150px;
+    right: 286px;
+    }
+    .jquery-text {
+    top: 150px;
+    right: 145px;
+    }
     .first-set {
         left: 230px;
         max-width: 100%;
@@ -1114,6 +1222,7 @@ margin-left: 130px;
     .contactlinks {
         position: absolute;
         }
+        
     .link {
         left: 340px;
     }
@@ -1172,6 +1281,31 @@ margin-left: 130px;
 .icon {
     width: 55px;
     height: 55px;
+}
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+font-size: 15px;
+padding: 4px;
+border: 5px dotted #b48ccf;
+}
+.html-text {
+bottom: 130px;
+right: 485px;
+}
+.css-text {
+bottom: 130px;
+right: 360px;
+}
+.Js-text {
+bottom: 130px;
+right: 205px;
+}
+.Bootstrap-text {
+top: 125px;
+right: 210px;
+}
+.jquery-text {
+top: 125px;
+right: 91px;
 }
 .first-set {
     max-width: 100%;
@@ -1265,14 +1399,68 @@ margin-left: 130px;
     width: 20rem;
     text-align: justify;
     }
+    .skills-wrapper img {
+        width: 80px;
+        height: 80px;
+        background-color: transparent;
+        border: none;
+    }
+    .html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+        font-size: 15px;
+        padding: 4px;
+        border: 5px dotted #b48ccf;
+        }
+        .HTML, .CSS, .JS, .Bootstrap, .jQuery {
+            position: absolute;
+        }
+        .HTML {
+            right: -13px;
+            bottom: 50px;
+        }
+        .CSS {
+            right: -10px;
+            bottom: 100px;
+        }
+        .JS {
+            right: -14px;
+            bottom: 140px;
+        }
+        .Bootstrap {
+            right: -130px;
+            bottom: 50px;
+        }
+        .jQuery {
+            right: 10px;
+            bottom: 160px;
+        }
+        .html-text {
+        bottom: 400px;
+        right: 150px;
+        }
+        .css-text {
+        bottom: 300px;
+        right: 150px;
+        }
+        .Js-text {
+        bottom: 190px;
+        right: 130px;
+        }
+        .Bootstrap-text {
+        top: 10px;
+        right: 220px;
+        }
+        .jquery-text {
+        top: -100px;
+        right: 200px;
+        }
     .first-set {
         max-width: 50%;
-        left: 250px;
+        left: 265px;
         bottom: 400px;
     }
     .second-set {
         max-width: 100%;
-        left: 80px;
+        left: 95px;
         bottom: 400px;
     }
     .skills-wrapper {
@@ -1369,6 +1557,60 @@ margin-left: 130px;
         width: 20rem;
         text-align: justify;
     }
+    .skills-wrapper img {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+    font-size: 15px;
+    padding: 4px;
+    border: 5px dotted #b48ccf;
+    }
+    .HTML, .CSS, .JS, .Bootstrap, .jQuery {
+        position: absolute;
+    }
+    .HTML {
+        right: -25px;
+        bottom: -60px;
+    }
+    .CSS {
+        right: -25px;
+        bottom: -35px;
+    }
+    .JS {
+        right: -25px;
+        bottom: -15px;
+    }
+    .Bootstrap {
+        right: -25px;
+        bottom: 20px;
+    }
+    .jQuery {
+        right: -25px;
+        bottom: 45px;
+    }
+    .html-text {
+    bottom: 180px;
+    right: 100px;
+    }
+    .css-text {
+    bottom: 100px;
+    right: 100px;
+    }
+    .Js-text {
+    bottom: 20px;
+    right: 100px;
+    }
+    .Bootstrap-text {
+    top: 15px;
+    right: 100px;
+    }
+    .jquery-text {
+    top: 90px;
+    right: 100px;
+    }
     .icon {
         width: 40px;
         height: 40px;
@@ -1378,12 +1620,12 @@ margin-left: 130px;
     }
     .first-set {
         bottom: 500px;
-        left: 220px;
+        left: 230px;
     }
     .second-set {
         max-width: 50%;
         bottom: 500px;
-        left: 220px;
+        left: 230px;
     }
     .line {
         visibility: hidden;
@@ -1471,6 +1713,60 @@ margin-left: 130px;
     .icon {
         width: 40px;
         height: 40px;
+    }
+    .skills-wrapper img {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+.html-text, .css-text, .Js-text, .Bootstrap-text, .jquery-text {
+    font-size: 12px;
+    padding: 4px;
+    border: 5px dotted #b48ccf;
+    }
+    .HTML, .CSS, .JS, .Bootstrap, .jQuery {
+        position: absolute;
+    }
+    .HTML {
+        right: -25px;
+        bottom: -60px;
+    }
+    .CSS {
+        right: -25px;
+        bottom: -35px;
+    }
+    .JS {
+        right: -25px;
+        bottom: -15px;
+    }
+    .Bootstrap {
+        right: -25px;
+        bottom: 20px;
+    }
+    .jQuery {
+        right: -25px;
+        bottom: 45px;
+    }
+    .html-text {
+    bottom: 180px;
+    right: 80px;
+    }
+    .css-text {
+    bottom: 100px;
+    right: 80px;
+    }
+    .Js-text {
+    bottom: 20px;
+    right: 80px;
+    }
+    .Bootstrap-text {
+    top: 15px;
+    right: 80px;
+    }
+    .jquery-text {
+    top: 90px;
+    right: 80px;
     }
     .first-set {
         bottom: 550px;
