@@ -908,7 +908,7 @@ top: 1050px;
     right: 220px;
 }
 .rainbow {
-left: 1000px;
+left: 1010px;
 }
 .sun {
 width: 470px;
@@ -1127,6 +1127,9 @@ margin-left: 130px;
     height: 150px;
     margin-left: -50px;
 }
+.rainbow {
+    margin-bottom: -200px;
+}
 .h1home {
     font-size: 4.5rem;
 }
@@ -1180,6 +1183,7 @@ margin-left: 130px;
     left: 380px;
 }
 .myprojects {
+    margin-top: -200px;
     white-space: nowrap;
     margin-left: 200px;
 }
@@ -1224,23 +1228,36 @@ margin-left: 130px;
         font-size: 2rem !important;
         margin-top: -40px;
     }
-    .bottom-cloud, .top-cloud {
-        visibility: hidden;
+    .top-cloud {
+        width: 100px;
+        right: 20px;
+        
     }
+    .bottom-cloud {
+        width: 100px;
+        top: 400px;
+        left: 10px
+    }
+    .rainbow {
+        height: 100%;
+        margin-bottom: -800px;
+    }
+    
     #mar {
         visibility: hidden;
     }
     .aboutRight {
+        margin-top: -500px;
         width: 100%;
     }
     .line {
-        top: 950px;
+        top: 1110px;
     }
     .webIcons {
         width: 50px;
     }
     .skills-header {
-        margin-top: 200px;
+        margin-top: -300px;
         white-space: nowrap;
         font-size: 3rem;
     }
@@ -1263,7 +1280,7 @@ margin-left: 130px;
         margin-bottom: -600px;
     }
     #habilidades {
-        margin-top: 300px;
+        margin-top: -300px;
     }
     .icon {
         width: 50px;
@@ -1311,6 +1328,10 @@ margin-left: 130px;
         height: 100px;
         left: 10px;
     }
+    .rainbow {
+        height: 100%;
+        margin-bottom: -500px;
+    }
     .h1home {
         font-size: 4rem;
         margin-top: 10px;
@@ -1332,7 +1353,7 @@ margin-left: 130px;
         visibility: hidden;
     }
     .aboutRight {
-        margin-top: -300px;
+        margin-top: -500px;
         margin-bottom: -400px;
         width: 100%;
     }
@@ -1340,7 +1361,7 @@ margin-left: 130px;
         width: 50px;
     }
     .skills-header {
-        margin-top: 400px;
+        margin-top: -200px;
         white-space: nowrap;
         font-size: 3rem;
     }
@@ -1376,7 +1397,7 @@ margin-left: 130px;
         height: 60px;
     }
     .myprojects {
-        margin-top: -400px;
+        margin-top: -450px;
         font-size: 3rem;
         white-space: nowrap;
         margin-left: 20px;
@@ -1405,6 +1426,10 @@ margin-left: 130px;
         width: 80px;
         height: 80px;
     }
+    .rainbow {
+        height: 200%;
+        margin-bottom: -300px;
+    }
     .h1home {
         margin-top: -30px;
         font-size: 4rem;
@@ -1421,6 +1446,8 @@ margin-left: 130px;
         visibility: hidden;
     }
     .aboutRight {
+        margin-top: -80px;
+        margin-bottom: -200px;
         width: 100%;
     }
     .line {
@@ -1430,7 +1457,7 @@ margin-left: 130px;
         width: 50px;
     }
     .skills-header {
-        margin-top: 800px;
+        margin-top: 350px;
         white-space: nowrap;
         font-size: 3rem;
     }
@@ -1457,7 +1484,7 @@ margin-left: 130px;
         font-size: 2.6rem;
     }
     .myprojects {
-        margin-top: -400px;
+        margin-top: -500px;
         margin-left: 30px;
         font-size: 3rem;
         white-space: nowrap;
