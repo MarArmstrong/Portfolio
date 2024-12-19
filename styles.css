@@ -260,11 +260,7 @@ width: 200px;
 
 
 .rainbow {
-left: 100px;
-max-width: 100%;
-max-height: 2000%;
 position: absolute;
-z-index: 0;
 }
 
 .sun  {
@@ -1355,12 +1351,12 @@ right: 91px;
         left: 20px;
     }
     .h1home {
-        margin-top: 10px;
-        font-size: 3.5rem;
+        margin-top: 40px;
+        font-size: 4.5rem;
     }
     .firsth2 {
-        font-size: 2rem !important;
-        margin-top: -40px;
+        font-size: 1rem;
+        margin-top: 20px;
     }
     .top-cloud {
         width: 100px;
@@ -1385,7 +1381,7 @@ right: 91px;
         width: 100%;
     }
     .line {
-        top: 1110px;
+        visibility: hidden;
     }
     .webIcons {
         width: 50px;
@@ -1666,19 +1662,18 @@ right: 91px;
         visibility: hidden;
     }
 }
-@media only screen and (min-width: 320px) and (max-width: 374px) {
+@media only screen and (max-width: 374px) {
     .sun {
         left: 10px;
-        width: 80px;
-        height: 80px;
-    }
-    .rainbow {
-        height: 200%;
-        margin-bottom: -300px;
+        width: 100px;
+        height: 100px;
     }
     .h1home {
-        margin-top: -30px;
+        margin-top: 50px;
         font-size: 4rem;
+    }
+    hr {
+        visibility: hidden;
     }
     .firsth2 {
         margin-top: -50px;
